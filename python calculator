@@ -1,0 +1,17 @@
+ def cl(number1, number2, operation):
+
+            if operation == "+":
+                return number1 + number2
+            elif operation == "-":
+                return number1 - numebr2
+            elif operation == "*":
+                return number1 * number2
+            elif operation == "/":
+                return number1 / number2
+            else:
+                print("Undefined !!")
+
+        number1 = int(input("Please enter a prime number:"))
+        number2 = int(input("Please enter a second number:"))
+        operation = input("operation?")
+        print(cl(number1, number2, operation))
